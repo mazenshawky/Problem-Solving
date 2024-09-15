@@ -1,18 +1,7 @@
 ## Problem Solving in Java
 
-Each class has the link of the problem commented in the first line
+Welcome to the Problem Solving in Java repository! This repository contains a collection of Java solutions to various algorithmic and data structure problems.
 
-## Folder Structure
+## Usage
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Each file and class is named after the problem it addresses, with a commented link to the problem provided at the top of each class.
