@@ -18,9 +18,10 @@ public class PoloThePenguinAndSegments {
             totalValuesOfSegments += calculateValueOfSegment(firstNum, secondNum);
         }
 
-        while (totalValuesOfSegments % divisibleNum != 0) {
-            totalValuesOfSegments++;
-            minNumOfMovesNeeded++;
+        int remainder = totalValuesOfSegments % divisibleNum;
+
+        if(remainder != 0) {
+            minNumOfMovesNeeded = divisibleNum - remainder;
         }
         System.out.println(minNumOfMovesNeeded);
     }
